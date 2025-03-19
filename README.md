@@ -22,14 +22,16 @@ This project implements a next word prediction model using Long Short-Term Memor
    pip install -r requirements.txt
 
 ## Project Structure
-next-word-prediction/
-├── app.py              # Streamlit web application
-├── experiments.ipynb   # Model training notebook
-├── requirements.txt    # Project dependencies
-├── hamlet.txt         # Training dataset
-└── models/            # Directory for saved models
-    ├── next_word_lstm.h5
-    └── tokenizer.pickle
+.
+├── app.py                 # Streamlit web application for predictions
+├── experiemnts.ipynb     # Jupyter notebook containing model training code
+├── requirements.txt      # List of Python dependencies
+├── hamlet.txt           # Training dataset (Shakespeare's Hamlet)
+├── README.md           # Project documentation
+├── .gitignore         # Git ignore file
+└── models/           # Directory containing trained models
+    ├── next_word_lstm.h5    # Trained LSTM model
+    └── tokenizer.pickle     # Fitted tokenizer
 
 ## Usage
 1. Run the Streamlit app:
